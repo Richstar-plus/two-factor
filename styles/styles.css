@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url(../images/papers.co-bj22-art-rain-drop-floor-leaf-red-29-wallpaper.jpg);
+  position: relative;
+  color: white;
+}
+
+
+body h3{
+  position: absolute;
+  right: 10px;
+  left: 440px;
+  top: 30px;
+  font-size: 25px;
+}
+
+.form-container{
+  position: absolute;
+  right: 40%;
+  left: 35%;
+  top: 100px;
+  bottom: 20px;
+  width: 30%;
+  height: 75vh;
+  background: rgba(24, 28, 141, 0.419);
+  display: flex;
+  justify-content: center;
+}
+
+.form-container h4{
+  margin: 30px 0 5px 120px;
+  font-size: 20px;
+
+}
+
+.form-container .error{
+  margin: 10px;
+  color: rgb(180, 11, 11);
+  font-size: 17px;
+  background: rgb(234, 212, 212);
+  padding: 5px 10px;
+  border-radius: 10px;
+
+}
+
+.form-container form div{
+  margin-bottom: 10px;
+
+}
+
+.form-container form div input{
+  height: 30px;
+  width: 300px;
+  background: rgba(239, 206, 206, 0.387);
+  color: white;
+  font-size: 16px;
+  border-radius: 20px;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+
+.form-container form div button{
+  width: 310px;
+  margin-top: 15px;
+  height: 30px;
+  border-radius: 20px;
+  background: rgba(239, 206, 206, 0);
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  border:  1px  solid blue;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.form-container form div button:hover{
+  background: rgba(0, 0, 255, 0.574);
+}
+
+.login-link{
+  position: absolute;
+  left: 69%;
+  top: 450px;
+  bottom: 30px;
+}
+
+.login-link a{
+  color: rgb(255, 248, 55);
+  text-decoration: none;
+}
+
+.login-link a:hover{
+  text-decoration: underline;
+}
+
+.pro {
+  position: absolute;
+  left: 28%;
+  top: 600px;
+  bottom: 30px;
+}
+
+.pro span{
+  color: rgb(255, 248, 55);
+}

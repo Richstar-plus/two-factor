@@ -1,0 +1,85 @@
+.home-container{
+  width: 40%;
+  left: 31%;
+
+}
+
+
+.mobile-container {
+  width: 680px;
+  height: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(255, 248, 55);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: #dddddda4;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.Profile-holder{
+  width: 100%;
+  position: absolute;
+  top: 50px;
+}
+
+.Profile-holder span{
+ margin-left: 40%;
+ font-size: 20px; 
+}
+
+.profil-body .image{
+  margin-left: 35%;
+  margin-top: 20px;
+}
+
+.profil-body .image img{
+  width: 120px;
+  height: 120px;
+}
+
+.welcome-div span{
+  font-size: 15px;
+  margin-left: 120px;
+}
+
+.logout{
+  position: absolute;
+  top: 400px;
+  left: 80%;
+}
+
+.logout a{
+  color: white;
+  font-size: 17px;
+}
+
+.logout a:hover{
+  text-decoration: underline;
+}
